@@ -1,25 +1,4 @@
 html{
-<<<<<<< HEAD
-    background-color:#94965A
-}
-
-p{
-    color:#F3E6FF;
-    Margin: 5px 2px 2px 2px;
-    font-size: 2rem;
-}
-
-h1{
-    color:#816996;
-}
-
-ol{
-    margin: 2px 5px 2px 2px;
-    color: #CDB6E3;
-
-}
-
-=======
     background-color:#3CF4F9 ;
     color:#2B6CE3;
 }
@@ -35,7 +14,8 @@ p{
 
 ol{
     border: 2px solid black;
-    border-radius: 30px;   
+    border-radius: 30px; 
+    color:black  
 }
 
 div{
@@ -63,4 +43,3 @@ div{
     align-items: center;
     
 }
->>>>>>> Working
