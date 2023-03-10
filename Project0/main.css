@@ -38,8 +38,17 @@ div{
 .gridlist{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    border: solid black;
+    border-color: black;
     min-width:900px ;
     align-items: center;
     
+}
+
+.hasborder{
+    border: 0;
+
+}
+
+.hasborder:has(*){
+    border:2px solid;
 }
