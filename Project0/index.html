@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cocktail Recipes</title>
     <link rel="stylesheet" href="main.css">
+    <script src="Script.js" defer></script>
 </head>
 <header align="center">
 
@@ -13,21 +14,23 @@
 </header>
 <body>
     
-    <p>Here is a list of the top 10 cocktails</p>
-    <ol>
-        <li>Margarita</li>
-        <li>Cosmopolitan</li>
-        <li>Daiquiri</li>
-        <li>Gimlet</li>
-        <li>Manhattan</li>
-        <li>Negroni</li>
-        <li>Old Fashioned</li>
-        <li>Sex on the Beach</li>
-        <li>Martini</li>
-        <li>Mimosa</li>
+    
+    <label for="Input">Enter a drink ingredient to list all available drinks:</label><br>
+    <input type="text" id="Drinkingred"  name="drinkingr">
+    
+    <button id="btn">Sumbit</button>
+    <br>
+    <label for="Input2">Enter a drink name to get the recipe:</label><br>
+    <input type="text" id="drinkname"  name="drinkname">
+    <button id="btn2">Sumbit</button><br>
+    
+        
+    <ol class="gridlist" id="myData" >
 
-    </ol> 
+    </ol>
+    <br>
+ 
+    <div class ="container" id="myRecipe" ></div>
    
-
 </body>
 </html>
